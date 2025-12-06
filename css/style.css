@@ -1,0 +1,130 @@
+/*remove margens e espaçamento de todo o site*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    
+}
+header{
+    background-color:#6FA26F
+;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    display: center;
+   max-width: 300%;
+   height: auto;
+
+}
+header img{
+    width: 300px;/*tamanho da imagem do cabeçalho*/
+    border-radius: 10px;/*bordas arredondadas na imagem do cabeçalho*/
+    margin-top: 10px; /*espaçamento entre o título e a imagem*/
+    max-width: 300px;/*tamanho máximo da imagem do cabeçalho*/
+}
+section h1{
+    color: #8b6437;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+section{
+    padding: 20px;
+    margin: auto;/*centraliza as seções*/
+    max-width: 800px;/*tamanho máximo das seções*/
+    margin-bottom: 20px;/*espaçamento entre as seções*/
+    background-color: #91C788
+;
+    border-radius: 10px;/*bordas arredondadas nas seções*/
+}
+section img{
+    width: 100%;/*tamanho das imagens dentro das seções*/
+    border-radius: 10px;/*bordas arredondadas nas imagens dentro das seções*/
+    margin-top: 10px; /*espaçamento entre o texto e as imagens*/
+}
+ul li{
+    margin-bottom: 10px;/*espaçamento entre os itens da lista*/
+}
+#contato{
+    text-align: center;
+}
+#contato imput{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+contato button{
+    padding: 10px 20px;
+    background-color: #91C788
+;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+contato button:hover{
+    background-color: #6e4e2a;
+}
+rodape{
+    background-color: #8b6437;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#habitat{
+    background-color: #c1e6d0;
+}
+#biologica{
+    background-color: #aac4a6
+;
+}
+#curiosidades{
+    background-color: #f9f1c9;
+}
+#extinção{
+    background-color: #e0c6c6;
+}
+#falna{
+    background-color: #d3d3d3;
+}
+#contato{
+    background-color: #D2B48C
+;
+}
+/* Telas pequenas */
+@media (max-width: 768px)/*quando a tela for menor que 768px*/ {
+
+    header {
+        padding: 10px;/*reduz o padding do cabeçalho em telas pequenas*/
+        text-align: center;
+    }
+
+    header img /*imagem do cabeçalho em telas pequenas*/ {
+        max-width: 250px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3, p, li {
+        font-size: 16px;
+}
+}
